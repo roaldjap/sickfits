@@ -1,0 +1,23 @@
+{
+  "name": "sick-fits",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently --kill-others \"npm start --prefix frontend\/\" \"npm start --prefix backend\/\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roaldjap/sickfits.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roaldjap/sickfits/issues"
+  },
+  "homepage": "https://github.com/roaldjap/sickfits#readme",
+  "dependencies": {
+    "concurrently": "^5.0.2"
+  }
+}
